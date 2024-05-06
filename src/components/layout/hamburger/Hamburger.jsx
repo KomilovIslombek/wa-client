@@ -2,6 +2,7 @@ import { CgMenuRight } from 'react-icons/cg'
 import { IoClose } from 'react-icons/io5'
 
 import { useOnClickOutside } from '../../../hooks/useOnClickOutside'
+
 import styles from './Hamburger.module.scss'
 import Menu from './Menu'
 
@@ -14,7 +15,7 @@ const Hamburger = () => {
 				{isShow ? <IoClose /> : <CgMenuRight />}
 			</button>
 
-			<Menu isShow={isShow} />
+			<Menu isShow={isShow} setIsShow={setIsShow} />
 		</div>
 	)
 }
