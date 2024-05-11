@@ -29,6 +29,7 @@ export const useAuthPage = () => {
 	}, [isAuth])
 
 	const { mutate, isLoading } = useMutation({
+		mutationKey: ['auth'],
 		mutationFn: ({ email, password }) =>
 			AuthService.main(email, password, type),
 

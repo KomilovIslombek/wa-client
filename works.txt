@@ -1,0 +1,4 @@
+Date: 11.05.2024
+1. Created page exercise
+2. Work with Controller from React-hook-form (need to learn this!)
+3. Work with mutation from React-query (need to learn this!)
